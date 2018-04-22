@@ -67,7 +67,7 @@ RUN BUILD_DEPS='ca-certificates curl gcc libc-dev make' && \
 COPY unbound.sh /
 RUN chmod +x /unbound.sh
 
-COPY a-records.conf /opt/unbound/etc/unbound/
+COPY unbound.conf /opt/unbound/etc/unbound/unbound.conf
 
 EXPOSE 53/udp
 CMD ["/unbound.sh"]
