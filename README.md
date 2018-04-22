@@ -3,7 +3,7 @@
 From MatthewVance/unbound-docker, i add
 
 * unbound-control for driving the main process
-* some cofiguration file for forward to autoritative server
+* some configuration files for forward to autoritative server, etccetera
 * dnstap support
 
 ## Tree
